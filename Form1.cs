@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Restaurant_Management_System.Interface;
+
+namespace Restaurant_Management_System
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+
+            frmLogin frmLogin = new frmLogin();
+            frmLogin.ShowDialog();
+        }
+    }
+}
